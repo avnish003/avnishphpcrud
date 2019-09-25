@@ -58,7 +58,7 @@ $rows=mysqli_fetch_array($data);
    
    <div class="form-group">
     <label for="inputEname">Date of birth</label>
-    <input type="text" class="form-control" required="required" id="inputEname" value="<?php echo $rows['dob']; ?>" name="dop" >
+    <input type="text" class="form-control" required="required" id="inputEname" value="<?php echo $rows['dob']; ?>" name="dob" >
     <span class="help-block"></span>
    </div>
    
